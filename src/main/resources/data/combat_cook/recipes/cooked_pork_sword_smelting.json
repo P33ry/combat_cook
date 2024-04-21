@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "combat_cook:pork_sword"
+    },
+    "result": "combat_cook:cooked_pork_sword",
+    "experience": 0.1,
+    "cookingtime": 200,
+    "group": "combat_cook:sword"
+}

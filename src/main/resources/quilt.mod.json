@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "de.pandro.QuiltTestMod",
-		"id": "quilt_test_mod",
-		"version": "1.0.0",
+		"group": "de.pandro.modding.minecraft",
+		"id": "combat_cook",
+		"version": "0.0.1",
 		"metadata": {
-			"name": "Quilt Test Mod",
-			"description": "My first Quilt mod.",
+			"name": "Combat Cook",
+			"description": "Cook your way to victory!",
 			"contributors": {
 				"Pandro": "Owner/Developer"
 			},
 			"contact": {
-				"homepage": "",
+				"homepage": "de.pandro.modding.minecraft",
 				"issues": "",
 				"sources": ""
 			},
-			"icon": "assets/quilt_test_mod/icon.png"
+			"icon": "assets/combat_cook/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "de.pandro.QuiltTestMod.quilt_test_mod.QuiltTestMod"
+			"init": "de.pandro.modding.minecraft.combat_cook.CombatCook"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "quilt_test_mod.mixins.json"
+	"mixin": "combat_cook.mixins.json"
 }

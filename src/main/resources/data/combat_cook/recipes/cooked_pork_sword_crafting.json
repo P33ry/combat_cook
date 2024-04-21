@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " # ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "combat_cook:cooked_pork_sword",
+        "count": 1
+    },
+    "group": "combat_cook:sword"
+}
